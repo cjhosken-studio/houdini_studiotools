@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainMenu>
+  <menuBar>
+    <subMenu id="studiotools">
+      <label>Studio Tools</label>
+
+      <scriptItem>
+        <label>Save Version</label>
+        <scriptCode><![CDATA[import houdini_studiotools; houdini_studiotools.save_version()]]></scriptCode>
+      </scriptItem>
+    </subMenu>
+  </menuBar>
+</mainMenu>
